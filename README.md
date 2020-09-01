@@ -1,5 +1,5 @@
 # elvisciotti.github.io
 
-Under construction.
+Source code of https://elvisciotti.github.io/, under construction
 
-So far only containing a simple HTML + Javascript ES6 page to reorganize Amazon Kindle clippings. [View page](https://elvisciotti.github.io/kindleparser/) 
+Also hosting a simple HTML + Javascript ES6 page to reorganize Amazon Kindle clippings. [View page](https://elvisciotti.github.io/kindleparser/) 
