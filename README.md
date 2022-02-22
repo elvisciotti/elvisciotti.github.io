@@ -1,7 +1,5 @@
-# Elvis Ciotti
-
-Software developer Contractor.
 Tech stack: Java, Spring, k8s, React.
+
 Location: London (or remote).
 
 *Site Under construction. See my updated work experience an tech skills details on [LinkedIn](https://www.linkedin.com/in/elvisciotti/?originalSubdomain=uk)*
