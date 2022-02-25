@@ -3,16 +3,8 @@
 # Projects
 
 {% for project in site.projects %}
-{{ project.name }} 
------------------
+## {{ project.name }}
 {{ project.content }}
-
- * Role: {{ project.role }};
- * Type: {{ project.type }};
- * Year: {{ project.year }};
- * Tech stack: {{ project.techStack }};
- * Links: {{ project.links }}
-    
 {% endfor %}
 
 ### Other projects
