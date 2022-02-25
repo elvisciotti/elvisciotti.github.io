@@ -1,45 +1,19 @@
-Tech stack: Java, Spring, k8s, React.
-
-Location: London (or remote).
-
 *UNDER CONSTRUCTION ! See my full and updated work experience and tech skills details on [LinkedIn](https://www.linkedin.com/in/elvisciotti/?originalSubdomain=uk)*
 
 # Projects
 
-### FlowAutomator.com 
-__Automation and composer tool__ able to compose content from dynamic widgets, and perform operations on those (e.g. mail, blog post, send to API) based on triggers (finance quotes, API JSONPath transformed calls, recurring schedule). Similar to zapier with fewer applications but simpler interface and rich editors for widgets.
+{% for project in site.projects %}
+{{ project.name }} 
+-----------------
+{{ project.content }}
 
-Initially with a mix of AWS serverless and Quarkus microservices on MySQL. Currently almost entirely on Spring.
-
- * Type: Website. Personal project single-handedly written;
- * Year: Launched in early 2021, maintained on weekends, currently under k8s migration;
- * Tech stack: Java 17, Spring, Hibernate, PostgreSQL, Redis, React 17 hooks, k8s, gitlab CI;
- * [https://www.flowautomator.com](https://www.flowautomator.com/])
- 
-
-###  Berenberg Equity portal
-Full Stack development of the official Berenberg Bank's Equity research portal using React/Typescript, including complex stock screening functionality on top of Oracle database. Strong FE and BE unit and functional testing. Deploy with Docker and k8s.
-
-* Type: Team of 5; 9 months contract in 2019;
-* Client: [Berenberg](https://www.berenberg.de/en/). 3rd word biggest private investment bank;
-* Tech stack: Spring, Oracle, React hooks, k8s;
-* [https://research.berenberg.com/](https://research.berenberg.com/)
-
-
-### Complete Deputy Report - Gov.uk / MOJ web application
-High secure front-facing RESTful based government online service for financial reports.
-.
- * Type: Team lead developer team of 2-3, Contract;
- * Year: 2016-18k;
- * Client:  UK Government /[Ministry of Justice](https://www.gov.uk/government/organisations/ministry-of-justice);
- * [Website on gov.uk](https://www.gov.uk/complete-deputy-report)
-
-### Lexis Process - LexisNexis
-Project management tool for lawyer firms. The tool is configurable to dynamically support different lawyers procedures, support users with different costs, LexisNexis APIs integration, time tracking and cost management.
-
- * Type: developer. Team of 3. Contract; 
- * Year: 2014;
- * [Demo video](http://www.youtube.com/playlist?list=PLK8J_c73_NCwrjzogER30J5bTlkyjM6i_) of version after 3 months.
+ * Role: {{ project.role }};
+ * Type: {{ project.type }};
+ * Year: {{ project.year }};
+ * Tech stack: {{ project.techStack }};
+ * Links: {{ project.links }}
+    
+{% endfor %}
 
 ### Other projects
 
@@ -48,14 +22,14 @@ Project management tool for lawyer firms. The tool is configurable to dynamicall
  * Implemented a type system for [Jolie](http://www.jolie-lang.org/), a parser and interpreter for a new __Java based microservice language__
  * Single-handedly written [FeatureCompare](http://www.featurecompare.com/), an auto-generated __feature-comparison__ website with __auto-generated__ comparison charts and prices comparison suggesting. Used to be translated and hosted in 5 languages;
  * Chrome extension to extract e-commerce website product data into comparison tables. __4k+ users, rated 4.5/5__ by users. Written in React/Typescript and jest [Webpage on Chrome webstore](https://chrome.google.com/webstore/detail/compare-amazon-products-s/bbgnjgojcifngncffebelnaljklbiilf);
- * Redeveloped Fanoinforma, a custom online magazine wrote with a bespoke framework of mine. Multi user backend used by 15-20 journalists to daily publish articles;
+ * Redeveloped FanoInforma, a custom online magazine wrote with a bespoke framework of mine. Multi-user backend used by 15-20 journalists to daily publish articles;
  * See more work experience on [linkedin](https://www.linkedin.com/in/elvisciotti/?originalSubdomain=uk)
 
-### under construction
-{% for project in site.projects %}
-# project.name 
-{{ project.content }}
+## Blog posts
+Under construction
 
- * Role: {{ project.role }}
+{% for post in site.posts %}
+ *  <a href="{{ post.url }}">**{{ post.title }}**</a> *{{ post.date | date_to_string }}*
 {% endfor %}
+
 
