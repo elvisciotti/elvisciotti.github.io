@@ -51,5 +51,11 @@ Project management tool for lawyer firms. The tool is configurable to dynamicall
  * Redeveloped Fanoinforma, a custom online magazine wrote with a bespoke framework of mine. Multi user backend used by 15-20 journalists to daily publish articles;
  * See more work experience on [linkedin](https://www.linkedin.com/in/elvisciotti/?originalSubdomain=uk)
 
+### under construction
+{% for project in site.projects %}
+# project.name 
+{{ project.content }}
 
+ * Role: {{ project.role }}
+{% endfor %}
 

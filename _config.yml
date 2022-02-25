@@ -1,3 +1,7 @@
 theme: jekyll-theme-slate
 title: Elvis Ciotti
-description: Contractor Software Engineer 
+description: Contractor Software Engineer
+
+
+collections:
+  - projects
