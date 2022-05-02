@@ -1,0 +1,1783 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<UserSettings FormatVersion="1.0">
+	<CliEnvSettings>
+		<TileCacheSizeMegabytes>30%</TileCacheSizeMegabytes>
+	</CliEnvSettings>
+	<HangingProtocols>
+    <HangingProtocolsVersion>9.01</HangingProtocolsVersion>
+    <HangingProtocol>
+      <ProtName>MR Hanging Protocol</ProtName>
+      <StudyDescr/>
+      <StudyDescrMatchType>1</StudyDescrMatchType>
+      <Modality>MR</Modality>
+      <ModalityMatchType>2</ModalityMatchType>
+      <LoadFirstPrior>false</LoadFirstPrior>
+      <LoadSecondPrior>false</LoadSecondPrior>
+      <LoadThirdPrior>false</LoadThirdPrior>
+      <LoadFourthPrior>false</LoadFourthPrior>
+      <HangingViews>
+        <HangingView>
+          <ViewName>MR default view</ViewName>
+          <SeriesCols>3</SeriesCols>
+          <SeriesRows>2</SeriesRows>
+          <AutoHanging>true</AutoHanging>
+          <UseSingleSePanelPerViewSeries>false</UseSingleSePanelPerViewSeries>
+          <HangingRulesSeries/>
+        </HangingView>
+      </HangingViews>
+      <HangingSteps>
+        <HangingStep>
+          <StepName>Step 1</StepName>
+          <CondNumPriorsMatchType>-1</CondNumPriorsMatchType>
+          <CondNumPriors>0</CondNumPriors>
+          <RulesForStudies>
+            <RuleForStudy WhichStudy="0">
+              <HangOnScreensDevIndexes>0</HangOnScreensDevIndexes>
+              <HangViewsOnScreen>
+                <HangViewOnScreen>
+                  <ScreenDevIndex>0</ScreenDevIndex>
+                  <ScreenDockSide>16</ScreenDockSide>
+                  <HangingViewName>MR default view</HangingViewName>
+                </HangViewOnScreen>
+              </HangViewsOnScreen>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="1">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="2">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="3">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="4">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+          </RulesForStudies>
+        </HangingStep>
+      </HangingSteps>
+      <SetMouseTools>false</SetMouseTools>
+      <LeftTool>SelectStack</LeftTool>
+      <RightTool>WindowLevel</RightTool>
+      <WheelTool>SelectStack</WheelTool>
+    </HangingProtocol>
+    <HangingProtocol>
+      <ProtName>CT Hanging Protocol</ProtName>
+      <StudyDescr/>
+      <StudyDescrMatchType>1</StudyDescrMatchType>
+      <Modality>CT</Modality>
+      <ModalityMatchType>2</ModalityMatchType>
+      <LoadFirstPrior>false</LoadFirstPrior>
+      <LoadSecondPrior>false</LoadSecondPrior>
+      <LoadThirdPrior>false</LoadThirdPrior>
+      <LoadFourthPrior>false</LoadFourthPrior>
+      <HangingViews>
+        <HangingView>
+          <ViewName>CT default view</ViewName>
+          <SeriesCols>3</SeriesCols>
+          <SeriesRows>2</SeriesRows>
+          <AutoHanging>true</AutoHanging>
+          <UseSingleSePanelPerViewSeries>false</UseSingleSePanelPerViewSeries>
+          <HangingRulesSeries/>
+        </HangingView>
+      </HangingViews>
+      <HangingSteps>
+        <HangingStep>
+          <StepName>Step 1</StepName>
+          <CondNumPriorsMatchType>-1</CondNumPriorsMatchType>
+          <CondNumPriors>0</CondNumPriors>
+          <RulesForStudies>
+            <RuleForStudy WhichStudy="0">
+              <HangOnScreensDevIndexes>0</HangOnScreensDevIndexes>
+              <HangViewsOnScreen>
+                <HangViewOnScreen>
+                  <ScreenDevIndex>0</ScreenDevIndex>
+                  <ScreenDockSide>16</ScreenDockSide>
+                  <HangingViewName>CT default view</HangingViewName>
+                </HangViewOnScreen>
+              </HangViewsOnScreen>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="1">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="2">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="3">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="4">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+          </RulesForStudies>
+        </HangingStep>
+      </HangingSteps>
+      <SetMouseTools>false</SetMouseTools>
+      <LeftTool>SelectStack</LeftTool>
+      <RightTool>WindowLevel</RightTool>
+      <WheelTool>SelectStack</WheelTool>
+    </HangingProtocol>
+    <HangingProtocol>
+      <ProtName>US Hanging Protocol</ProtName>
+      <StudyDescr/>
+      <StudyDescrMatchType>1</StudyDescrMatchType>
+      <Modality>US</Modality>
+      <ModalityMatchType>2</ModalityMatchType>
+      <LoadFirstPrior>false</LoadFirstPrior>
+      <LoadSecondPrior>false</LoadSecondPrior>
+      <LoadThirdPrior>false</LoadThirdPrior>
+      <LoadFourthPrior>false</LoadFourthPrior>
+      <HangingViews>
+        <HangingView>
+          <ViewName>US default view</ViewName>
+          <SeriesCols>3</SeriesCols>
+          <SeriesRows>2</SeriesRows>
+          <AutoHanging>true</AutoHanging>
+          <UseSingleSePanelPerViewSeries>false</UseSingleSePanelPerViewSeries>
+          <HangingRulesSeries/>
+        </HangingView>
+      </HangingViews>
+      <HangingSteps>
+        <HangingStep>
+          <StepName>Step 1</StepName>
+          <CondNumPriorsMatchType>-1</CondNumPriorsMatchType>
+          <CondNumPriors>0</CondNumPriors>
+          <RulesForStudies>
+            <RuleForStudy WhichStudy="0">
+              <HangOnScreensDevIndexes>0</HangOnScreensDevIndexes>
+              <HangViewsOnScreen>
+                <HangViewOnScreen>
+                  <ScreenDevIndex>0</ScreenDevIndex>
+                  <ScreenDockSide>16</ScreenDockSide>
+                  <HangingViewName>US default view</HangingViewName>
+                </HangViewOnScreen>
+              </HangViewsOnScreen>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="1">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="2">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="3">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="4">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+          </RulesForStudies>
+        </HangingStep>
+      </HangingSteps>
+      <SetMouseTools>false</SetMouseTools>
+      <LeftTool>SelectStack</LeftTool>
+      <RightTool>WindowLevel</RightTool>
+      <WheelTool>SelectStack</WheelTool>
+    </HangingProtocol>
+    <HangingProtocol>
+      <ProtName>CR Hanging Protocol</ProtName>
+      <StudyDescr/>
+      <StudyDescrMatchType>1</StudyDescrMatchType>
+      <Modality>CR</Modality>
+      <ModalityMatchType>2</ModalityMatchType>
+      <LoadFirstPrior>false</LoadFirstPrior>
+      <LoadSecondPrior>false</LoadSecondPrior>
+      <LoadThirdPrior>false</LoadThirdPrior>
+      <LoadFourthPrior>false</LoadFourthPrior>
+      <HangingViews>
+        <HangingView>
+          <ViewName>CR default view</ViewName>
+          <SeriesCols>1</SeriesCols>
+          <SeriesRows>1</SeriesRows>
+          <AutoHanging>true</AutoHanging>
+          <UseSingleSePanelPerViewSeries>false</UseSingleSePanelPerViewSeries>
+          <HangingRulesSeries/>
+        </HangingView>
+      </HangingViews>
+      <HangingSteps>
+        <HangingStep>
+          <StepName>Step 1</StepName>
+          <CondNumPriorsMatchType>-1</CondNumPriorsMatchType>
+          <CondNumPriors>0</CondNumPriors>
+          <RulesForStudies>
+            <RuleForStudy WhichStudy="0">
+              <HangOnScreensDevIndexes>0</HangOnScreensDevIndexes>
+              <HangViewsOnScreen>
+                <HangViewOnScreen>
+                  <ScreenDevIndex>0</ScreenDevIndex>
+                  <ScreenDockSide>16</ScreenDockSide>
+                  <HangingViewName>CR default view</HangingViewName>
+                </HangViewOnScreen>
+              </HangViewsOnScreen>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="1">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="2">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="3">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="4">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+          </RulesForStudies>
+        </HangingStep>
+      </HangingSteps>
+      <SetMouseTools>false</SetMouseTools>
+      <LeftTool>SelectStack</LeftTool>
+      <RightTool>WindowLevel</RightTool>
+      <WheelTool>SelectStack</WheelTool>
+    </HangingProtocol>
+    <HangingProtocol>
+      <ProtName>DX Hanging Protocol</ProtName>
+      <StudyDescr/>
+      <StudyDescrMatchType>1</StudyDescrMatchType>
+      <Modality>DX</Modality>
+      <ModalityMatchType>2</ModalityMatchType>
+      <LoadFirstPrior>false</LoadFirstPrior>
+      <LoadSecondPrior>false</LoadSecondPrior>
+      <LoadThirdPrior>false</LoadThirdPrior>
+      <LoadFourthPrior>false</LoadFourthPrior>
+      <HangingViews>
+        <HangingView>
+          <ViewName>DX default view</ViewName>
+          <SeriesCols>1</SeriesCols>
+          <SeriesRows>1</SeriesRows>
+          <AutoHanging>true</AutoHanging>
+          <UseSingleSePanelPerViewSeries>false</UseSingleSePanelPerViewSeries>
+          <HangingRulesSeries/>
+        </HangingView>
+      </HangingViews>
+      <HangingSteps>
+        <HangingStep>
+          <StepName>Step 1</StepName>
+          <CondNumPriorsMatchType>-1</CondNumPriorsMatchType>
+          <CondNumPriors>0</CondNumPriors>
+          <RulesForStudies>
+            <RuleForStudy WhichStudy="0">
+              <HangOnScreensDevIndexes>0</HangOnScreensDevIndexes>
+              <HangViewsOnScreen>
+                <HangViewOnScreen>
+                  <ScreenDevIndex>0</ScreenDevIndex>
+                  <ScreenDockSide>16</ScreenDockSide>
+                  <HangingViewName>DX default view</HangingViewName>
+                </HangViewOnScreen>
+              </HangViewsOnScreen>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="1">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="2">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="3">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="4">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+          </RulesForStudies>
+        </HangingStep>
+      </HangingSteps>
+      <SetMouseTools>false</SetMouseTools>
+      <LeftTool>SelectStack</LeftTool>
+      <RightTool>WindowLevel</RightTool>
+      <WheelTool>SelectStack</WheelTool>
+    </HangingProtocol>
+    <HangingProtocol>
+      <ProtName>MG Hanging Protocol</ProtName>
+      <StudyDescr/>
+      <StudyDescrMatchType>1</StudyDescrMatchType>
+      <Modality>MG</Modality>
+      <ModalityMatchType>2</ModalityMatchType>
+      <LoadFirstPrior>false</LoadFirstPrior>
+      <LoadSecondPrior>false</LoadSecondPrior>
+      <LoadThirdPrior>false</LoadThirdPrior>
+      <LoadFourthPrior>false</LoadFourthPrior>
+      <HangingViews>
+        <HangingView>
+          <ViewName>Mammo CC view</ViewName>
+          <SeriesCols>2</SeriesCols>
+          <SeriesRows>1</SeriesRows>
+          <AutoHanging>false</AutoHanging>
+          <UseSingleSePanelPerViewSeries>false</UseSingleSePanelPerViewSeries>
+          <HangingRulesSeries>
+            <HangingRuleSeries>
+              <PanelNumber>1</PanelNumber>
+              <BodyPartEx/>
+              <BodyPartExMatchType>0</BodyPartExMatchType>
+              <Laterality/>
+              <LateralityMatchType>0</LateralityMatchType>
+              <ImageLaterality>R</ImageLaterality>
+              <ImageLateralityMatchType>2</ImageLateralityMatchType>
+              <FrameLaterality/>
+              <FrameLateralityMatchType>0</FrameLateralityMatchType>
+              <ViewPosition/>
+              <ViewPositionMatchType>0</ViewPositionMatchType>
+              <ViewCode>R-10242</ViewCode>
+              <ViewCodeMatchType>2</ViewCodeMatchType>
+              <SeriesDescr/>
+              <SeriesDescrMatchType>0</SeriesDescrMatchType>
+              <SeriesNumber/>
+              <SeriesNumberMatchType>0</SeriesNumberMatchType>
+              <ImageCols>1</ImageCols>
+              <ImageRows>1</ImageRows>
+              <AlignHoriz>2</AlignHoriz>
+              <AlignVert>1</AlignVert>
+            </HangingRuleSeries>
+            <HangingRuleSeries>
+              <PanelNumber>2</PanelNumber>
+              <BodyPartEx/>
+              <BodyPartExMatchType>0</BodyPartExMatchType>
+              <Laterality/>
+              <LateralityMatchType>0</LateralityMatchType>
+              <ImageLaterality>L</ImageLaterality>
+              <ImageLateralityMatchType>2</ImageLateralityMatchType>
+              <FrameLaterality/>
+              <FrameLateralityMatchType>0</FrameLateralityMatchType>
+              <ViewPosition/>
+              <ViewPositionMatchType>0</ViewPositionMatchType>
+              <ViewCode>R-10242</ViewCode>
+              <ViewCodeMatchType>2</ViewCodeMatchType>
+              <SeriesDescr/>
+              <SeriesDescrMatchType>0</SeriesDescrMatchType>
+              <SeriesNumber/>
+              <SeriesNumberMatchType>0</SeriesNumberMatchType>
+              <ImageCols>1</ImageCols>
+              <ImageRows>1</ImageRows>
+              <AlignHoriz>0</AlignHoriz>
+              <AlignVert>1</AlignVert>
+            </HangingRuleSeries>
+          </HangingRulesSeries>
+        </HangingView>
+        <HangingView>
+          <ViewName>Mammo MLO view</ViewName>
+          <SeriesCols>2</SeriesCols>
+          <SeriesRows>1</SeriesRows>
+          <AutoHanging>false</AutoHanging>
+          <UseSingleSePanelPerViewSeries>false</UseSingleSePanelPerViewSeries>
+          <HangingRulesSeries>
+            <HangingRuleSeries>
+              <PanelNumber>1</PanelNumber>
+              <BodyPartEx/>
+              <BodyPartExMatchType>0</BodyPartExMatchType>
+              <Laterality/>
+              <LateralityMatchType>0</LateralityMatchType>
+              <ImageLaterality>R</ImageLaterality>
+              <ImageLateralityMatchType>2</ImageLateralityMatchType>
+              <FrameLaterality/>
+              <FrameLateralityMatchType>0</FrameLateralityMatchType>
+              <ViewPosition/>
+              <ViewPositionMatchType>0</ViewPositionMatchType>
+              <ViewCode>R-10226</ViewCode>
+              <ViewCodeMatchType>2</ViewCodeMatchType>
+              <SeriesDescr/>
+              <SeriesDescrMatchType>0</SeriesDescrMatchType>
+              <SeriesNumber/>
+              <SeriesNumberMatchType>0</SeriesNumberMatchType>
+              <ImageCols>1</ImageCols>
+              <ImageRows>1</ImageRows>
+              <AlignHoriz>2</AlignHoriz>
+              <AlignVert>1</AlignVert>
+            </HangingRuleSeries>
+            <HangingRuleSeries>
+              <PanelNumber>2</PanelNumber>
+              <BodyPartEx/>
+              <BodyPartExMatchType>0</BodyPartExMatchType>
+              <Laterality/>
+              <LateralityMatchType>0</LateralityMatchType>
+              <ImageLaterality>L</ImageLaterality>
+              <ImageLateralityMatchType>2</ImageLateralityMatchType>
+              <FrameLaterality/>
+              <FrameLateralityMatchType>0</FrameLateralityMatchType>
+              <ViewPosition/>
+              <ViewPositionMatchType>0</ViewPositionMatchType>
+              <ViewCode>R-10226</ViewCode>
+              <ViewCodeMatchType>2</ViewCodeMatchType>
+              <SeriesDescr/>
+              <SeriesDescrMatchType>0</SeriesDescrMatchType>
+              <SeriesNumber/>
+              <SeriesNumberMatchType>0</SeriesNumberMatchType>
+              <ImageCols>1</ImageCols>
+              <ImageRows>1</ImageRows>
+              <AlignHoriz>0</AlignHoriz>
+              <AlignVert>1</AlignVert>
+            </HangingRuleSeries>
+          </HangingRulesSeries>
+        </HangingView>
+        <HangingView>
+          <ViewName>Mammo ML view</ViewName>
+          <SeriesCols>2</SeriesCols>
+          <SeriesRows>1</SeriesRows>
+          <AutoHanging>false</AutoHanging>
+          <UseSingleSePanelPerViewSeries>false</UseSingleSePanelPerViewSeries>
+          <HangingRulesSeries>
+            <HangingRuleSeries>
+              <PanelNumber>1</PanelNumber>
+              <BodyPartEx/>
+              <BodyPartExMatchType>0</BodyPartExMatchType>
+              <Laterality/>
+              <LateralityMatchType>0</LateralityMatchType>
+              <ImageLaterality>R</ImageLaterality>
+              <ImageLateralityMatchType>2</ImageLateralityMatchType>
+              <FrameLaterality/>
+              <FrameLateralityMatchType>0</FrameLateralityMatchType>
+              <ViewPosition/>
+              <ViewPositionMatchType>0</ViewPositionMatchType>
+              <ViewCode>R-10224</ViewCode>
+              <ViewCodeMatchType>2</ViewCodeMatchType>
+              <SeriesDescr/>
+              <SeriesDescrMatchType>0</SeriesDescrMatchType>
+              <SeriesNumber/>
+              <SeriesNumberMatchType>0</SeriesNumberMatchType>
+              <ImageCols>1</ImageCols>
+              <ImageRows>1</ImageRows>
+              <AlignHoriz>2</AlignHoriz>
+              <AlignVert>1</AlignVert>
+            </HangingRuleSeries>
+            <HangingRuleSeries>
+              <PanelNumber>2</PanelNumber>
+              <BodyPartEx/>
+              <BodyPartExMatchType>0</BodyPartExMatchType>
+              <Laterality/>
+              <LateralityMatchType>0</LateralityMatchType>
+              <ImageLaterality>L</ImageLaterality>
+              <ImageLateralityMatchType>2</ImageLateralityMatchType>
+              <FrameLaterality/>
+              <FrameLateralityMatchType>0</FrameLateralityMatchType>
+              <ViewPosition/>
+              <ViewPositionMatchType>0</ViewPositionMatchType>
+              <ViewCode>R-10224</ViewCode>
+              <ViewCodeMatchType>2</ViewCodeMatchType>
+              <SeriesDescr/>
+              <SeriesDescrMatchType>0</SeriesDescrMatchType>
+              <SeriesNumber/>
+              <SeriesNumberMatchType>0</SeriesNumberMatchType>
+              <ImageCols>1</ImageCols>
+              <ImageRows>1</ImageRows>
+              <AlignHoriz>0</AlignHoriz>
+              <AlignVert>1</AlignVert>
+            </HangingRuleSeries>
+          </HangingRulesSeries>
+        </HangingView>
+      </HangingViews>
+      <HangingSteps>
+        <HangingStep>
+          <StepName>CC Step</StepName>
+          <CondNumPriorsMatchType>-1</CondNumPriorsMatchType>
+          <CondNumPriors>0</CondNumPriors>
+          <RulesForStudies>
+            <RuleForStudy WhichStudy="0">
+              <HangOnScreensDevIndexes>0</HangOnScreensDevIndexes>
+              <HangViewsOnScreen>
+                <HangViewOnScreen>
+                  <ScreenDevIndex>0</ScreenDevIndex>
+                  <ScreenDockSide>16</ScreenDockSide>
+                  <HangingViewName>Mammo CC view</HangingViewName>
+                </HangViewOnScreen>
+              </HangViewsOnScreen>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="1">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="2">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="3">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="4">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+          </RulesForStudies>
+        </HangingStep>
+        <HangingStep>
+          <StepName>MLO Step</StepName>
+          <CondNumPriorsMatchType>-1</CondNumPriorsMatchType>
+          <CondNumPriors>0</CondNumPriors>
+          <RulesForStudies>
+            <RuleForStudy WhichStudy="0">
+              <HangOnScreensDevIndexes>0</HangOnScreensDevIndexes>
+              <HangViewsOnScreen>
+                <HangViewOnScreen>
+                  <ScreenDevIndex>0</ScreenDevIndex>
+                  <ScreenDockSide>16</ScreenDockSide>
+                  <HangingViewName>Mammo MLO view</HangingViewName>
+                </HangViewOnScreen>
+              </HangViewsOnScreen>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="1">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="2">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="3">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="4">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+          </RulesForStudies>
+        </HangingStep>
+        <HangingStep>
+          <StepName>ML Step</StepName>
+          <CondNumPriorsMatchType>-1</CondNumPriorsMatchType>
+          <CondNumPriors>0</CondNumPriors>
+          <RulesForStudies>
+            <RuleForStudy WhichStudy="0">
+              <HangOnScreensDevIndexes>0</HangOnScreensDevIndexes>
+              <HangViewsOnScreen>
+                <HangViewOnScreen>
+                  <ScreenDevIndex>0</ScreenDevIndex>
+                  <ScreenDockSide>16</ScreenDockSide>
+                  <HangingViewName>Mammo ML view</HangingViewName>
+                </HangViewOnScreen>
+              </HangViewsOnScreen>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="1">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="2">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="3">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+            <RuleForStudy WhichStudy="4">
+              <HangOnScreensDevIndexes/>
+              <HangViewsOnScreen/>
+            </RuleForStudy>
+          </RulesForStudies>
+        </HangingStep>
+      </HangingSteps>
+      <SetMouseTools>false</SetMouseTools>
+      <LeftTool>SelectStack</LeftTool>
+      <RightTool>WindowLevel</RightTool>
+      <WheelTool>SelectStack</WheelTool>
+    </HangingProtocol>
+  </HangingProtocols>
+  <LoadSettings>
+    <DefaultLoadURL>http://</DefaultLoadURL>
+    <AutoPrependURLPrefix/>
+    <AutoAppendURLSuffix/>
+    <EnableRemoteFilesetsLoad>false</EnableRemoteFilesetsLoad>
+    <EnableLocalFileLoad>false</EnableLocalFileLoad>
+    <EnableLoadByURL>false</EnableLoadByURL>
+    <ReqImgsAsLossyFirst>false</ReqImgsAsLossyFirst>
+    <ReqImgsAsOrigAfterLossyAuto>false</ReqImgsAsOrigAfterLossyAuto>
+    <CombineNewStudyPolicy>3</CombineNewStudyPolicy>
+  </LoadSettings>
+  <ExportSettings>
+    <EnableExportDCMToServer>false</EnableExportDCMToServer>
+    <EnableExportDCMToLocal>true</EnableExportDCMToLocal>
+    <EnableExportJPG>true</EnableExportJPG>
+    <EnableExportJPGToServer>false</EnableExportJPGToServer>
+    <EnableExportPNG>false</EnableExportPNG>
+    <EnableExportPNGToServer>false</EnableExportPNGToServer>
+    <EnableExportJ2K>false</EnableExportJ2K>
+    <EnableExportJ2KToServer>false</EnableExportJ2KToServer>
+    <EnableExportAVI>true</EnableExportAVI>
+    <EnableExportAVIToServer>false</EnableExportAVIToServer>
+    <EnableCopyToClipboard>true</EnableCopyToClipboard>
+    <DcmExportSelection>SelStudy</DcmExportSelection>
+    <DcmSaveOrigFilesEnabled>true</DcmSaveOrigFilesEnabled>
+    <DcmSavePSEnabled>false</DcmSavePSEnabled>
+    <DcmSaveKIEnabled>false</DcmSaveKIEnabled>
+    <DcmStreamCompEnabled>false</DcmStreamCompEnabled>
+    <DcmAnonymizeOnExpEnabled>false</DcmAnonymizeOnExpEnabled>
+    <JpgExportSelection>SelImage</JpgExportSelection>
+    <JpgExportDpi>300</JpgExportDpi>
+    <JpgExportQuality>80</JpgExportQuality>
+    <J2KExportSelection>SelImage</J2KExportSelection>
+    <J2KExportCompType>Lossless</J2KExportCompType>
+    <J2KExportDpi>300</J2KExportDpi>
+    <J2KExportCompression>5</J2KExportCompression>
+    <PngExportSelection>SelImage</PngExportSelection>
+    <PngExportDpi>300</PngExportDpi>
+    <PngExportCompression>5</PngExportCompression>
+    <AviExportSelection>SelSeries</AviExportSelection>
+    <AviExportQuality>80</AviExportQuality>
+    <EnableClientBurning>false</EnableClientBurning>
+    <EnableServerBurning>false</EnableServerBurning>
+    <IncludeCDViewer>true</IncludeCDViewer>
+    <WinViewer>true</WinViewer>
+    <LinuxViewer>false</LinuxViewer>
+    <MacOSXViewer>false</MacOSXViewer>
+    <DcmAnonymizeOnBurnEnabled>false</DcmAnonymizeOnBurnEnabled>
+    <ServerBurningDeviceID/>
+  </ExportSettings>
+  <DisplaySettings>
+  	<ScaleSubsampleThreshold>1.0</ScaleSubsampleThreshold>
+    <ShowImageInfo>true</ShowImageInfo>
+    <ZoomInterpolation>bilinear</ZoomInterpolation>
+    <MagnifierPixelSize>300</MagnifierPixelSize>
+    <MagnifierZoomFactor>3.0</MagnifierZoomFactor>
+    <ShutterShape>RECTANGULAR</ShutterShape>
+    <OverlayEnabledOnStartup>true</OverlayEnabledOnStartup>
+    <OverlayAllowUserSelection>true</OverlayAllowUserSelection>
+    <OverlayHQTextEnabled>true</OverlayHQTextEnabled>
+    <AnnotationsEnabledOnStartup>true</AnnotationsEnabledOnStartup>
+    <CADSRMarkersDrawCenters>true</CADSRMarkersDrawCenters>
+    <CADSRMarkersDrawContours>true</CADSRMarkersDrawContours>
+    <CADSRMarkersDrawLegend>true</CADSRMarkersDrawLegend>
+    <OrientMarkersEnabled>true</OrientMarkersEnabled>
+    <RulersEnabled>true</RulersEnabled>
+    <CurRefLineEnabledOnStartup>true</CurRefLineEnabledOnStartup>
+    <FirstLastRefLinesEnabledOnStartup>true</FirstLastRefLinesEnabledOnStartup>
+    <AllRefLinesEnabledOnStartup>false</AllRefLinesEnabledOnStartup>
+    <AutoAutoWin>false</AutoAutoWin>
+    <ZoomOpsApplyTo>1</ZoomOpsApplyTo>
+    <AutoSetDispModeOnStudyLoad>false</AutoSetDispModeOnStudyLoad>
+    <StudyPanelsTabPlac>1</StudyPanelsTabPlac>
+    <AutoStartPlayOnSeriesHang>false</AutoStartPlayOnSeriesHang>
+    <ThumbnailsSize>100</ThumbnailsSize>
+    <ThumbnailsType>0</ThumbnailsType>
+    <ShowMetaInfoPanel>true</ShowMetaInfoPanel>
+    <ShowPatientInfoPanel>true</ShowPatientInfoPanel>
+    <ShowStudyInfoPanel>true</ShowStudyInfoPanel>
+    <ShowSeriesInfoPanel>true</ShowSeriesInfoPanel>
+    <ShowEquipInfoPanel>true</ShowEquipInfoPanel>
+    <ShowImageInfoPanel>true</ShowImageInfoPanel>
+    <ShowClinicalTrialInfoPanel>false</ShowClinicalTrialInfoPanel>
+    <ShowSettings>false</ShowSettings>
+    <OverlayTexts>
+      <OverlayText BodyPartEx="" BodyPartExMatchType="0" Description="CT overlay" FontSizeFactor="1.0" FrameLaterality="" FrameLateralityMatchType="0" ImageLaterality="" ImageLateralityMatchType="0" Laterality="" LateralityMatchType="0" Modality="CT" ModalityMatchType="2" TextColor="255,255,0,255" ViewCode="" ViewCodeMatchType="0" ViewPosition="" ViewPositionMatchType="0">
+        <TopLeftOvTextLinesGroup Description="Overlay in alto a sinistra">
+          <OvTextLines>
+            <OvTextLine Description="Patient's Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0010,0010" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient ID line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="ID: " Id="0"/>
+                <Field Details="0010,0020" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient Birthdate line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Data di nascita: " Id="0"/>
+                <Field Details="0010,0030" Id="1000"/>
+                <Field Details=" (" Id="0"/>
+                <Field Id="1205"/>
+                <Field Details=")" Id="0"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient's Sex line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Sesso: " Id="0"/>
+                <Field Details="0010,0040" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient Comments line" Hidable="true" MultiLine="true">
+              <Fields>
+                <Field Details="0010,4000" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image # in series line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1203"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Zoom factor line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Zoom: " Id="0"/>
+                <Field Id="2000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Cine playback FPS line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="3000"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </TopLeftOvTextLinesGroup>
+        <TopRightOvTextLinesGroup Description="Overlay in alto a destra">
+          <OvTextLines>
+            <OvTextLine Description="Institution Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0008,0080" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Accession Number line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Acc #: " Id="0"/>
+                <Field Details="0008,0050" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Modality line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Modalità: " Id="0"/>
+                <Field Details="0008,0060" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image smart date line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1200"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image smart time line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1201"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </TopRightOvTextLinesGroup>
+        <BottomLeftOvTextLinesGroup Description="Overlay in basso a sinistra">
+          <OvTextLines>
+            <OvTextLine Description="Referring Physician's Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Medico prescr.: " Id="0"/>
+                <Field Details="0008,0090" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Study Description line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="St: " Id="0"/>
+                <Field Details="0008,1030" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Study Comments line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0032,4000" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Series Description line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Se: [# " Id="0"/>
+                <Field Details="0020,0011" Id="1000"/>
+                <Field Details="] " Id="0"/>
+                <Field Details="0008,103E" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="WW / WL line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1204"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </BottomLeftOvTextLinesGroup>
+        <BottomRightOvTextLinesGroup Description="Overlay in basso a destra">
+          <OvTextLines>
+            <OvTextLine Description="Contrast / bolus agent line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Contr: " Id="0"/>
+                <Field Id="1307"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Acquisition details line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1300"/>
+                <Field Details=", " Id="0"/>
+                <Field Id="1301"/>
+                <Field Details=", " Id="0"/>
+                <Field Id="1302"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="DFOV line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="DFOV: " Id="0"/>
+                <Field Id="2001"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Slice thickness line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Slice th: " Id="0"/>
+                <Field Id="1305"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Slice location line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Slice loc: " Id="0"/>
+                <Field Id="1304"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image position line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1306"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Size warnings line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1100"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Enhanced / modified warning line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1101"/>
+                <Field Details=" " Id="0"/>
+                <Field Id="1102"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Lossy warning line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1103"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </BottomRightOvTextLinesGroup>
+      </OverlayText>
+      <OverlayText BodyPartEx="" BodyPartExMatchType="0" Description="MG overlay" FontSizeFactor="1.0" FrameLaterality="" FrameLateralityMatchType="0" ImageLaterality="" ImageLateralityMatchType="0" Laterality="" LateralityMatchType="0" Modality="MG" ModalityMatchType="2" TextColor="255,255,0,255" ViewCode="" ViewCodeMatchType="0" ViewPosition="" ViewPositionMatchType="0">
+        <TopLeftOvTextLinesGroup Description="Overlay in alto a sinistra">
+          <OvTextLines>
+            <OvTextLine Description="Patient's Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0010,0010" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient ID line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="ID: " Id="0"/>
+                <Field Details="0010,0020" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient Birthdate line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Data di nascita: " Id="0"/>
+                <Field Details="0010,0030" Id="1000"/>
+                <Field Details=" (" Id="0"/>
+                <Field Id="1205"/>
+                <Field Details=")" Id="0"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient's Sex line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Sesso: " Id="0"/>
+                <Field Details="0010,0040" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient Comments line" Hidable="true" MultiLine="true">
+              <Fields>
+                <Field Details="0010,4000" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image # in series line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1203"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Zoom factor line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Zoom: " Id="0"/>
+                <Field Id="2000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Cine playback FPS line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="3000"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </TopLeftOvTextLinesGroup>
+        <TopRightOvTextLinesGroup Description="Overlay in alto a destra">
+          <OvTextLines>
+            <OvTextLine Description="Institution Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0008,0080" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Accession Number line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Acc #: " Id="0"/>
+                <Field Details="0008,0050" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Modality line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Modalità: " Id="0"/>
+                <Field Details="0008,0060" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image smart date line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1200"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image smart time line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1201"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </TopRightOvTextLinesGroup>
+        <BottomLeftOvTextLinesGroup Description="Overlay in basso a sinistra">
+          <OvTextLines>
+            <OvTextLine Description="Referring Physician's Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Medico prescr.: " Id="0"/>
+                <Field Details="0008,0090" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Study Description line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="St: " Id="0"/>
+                <Field Details="0008,1030" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Study Comments line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0032,4000" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Series Description line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Se: [# " Id="0"/>
+                <Field Details="0020,0011" Id="1000"/>
+                <Field Details="] " Id="0"/>
+                <Field Details="0008,103E" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="WW / WL line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1204"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </BottomLeftOvTextLinesGroup>
+        <BottomRightOvTextLinesGroup Description="Overlay in basso a destra">
+          <OvTextLines>
+            <OvTextLine Description="Acquisition details line 1" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1300"/>
+                <Field Details=", " Id="0"/>
+                <Field Id="1302"/>
+                <Field Details=", " Id="0"/>
+                <Field Id="1303"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Acquisition details line 2" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1500"/>
+                <Field Details=", " Id="0"/>
+                <Field Id="1501"/>
+                <Field Details=", " Id="0"/>
+                <Field Id="1502"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Laterality / view position line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1202"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Ref by CAD SR indication line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1503"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Size warnings line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1100"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Enhanced / modified warning line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1101"/>
+                <Field Details=" " Id="0"/>
+                <Field Id="1102"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Lossy warning line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1103"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </BottomRightOvTextLinesGroup>
+      </OverlayText>
+      <OverlayText BodyPartEx="" BodyPartExMatchType="0" Description="MR overlay" FontSizeFactor="1.0" FrameLaterality="" FrameLateralityMatchType="0" ImageLaterality="" ImageLateralityMatchType="0" Laterality="" LateralityMatchType="0" Modality="MR" ModalityMatchType="2" TextColor="255,255,0,255" ViewCode="" ViewCodeMatchType="0" ViewPosition="" ViewPositionMatchType="0">
+        <TopLeftOvTextLinesGroup Description="Overlay in alto a sinistra">
+          <OvTextLines>
+            <OvTextLine Description="Patient's Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0010,0010" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient ID line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="ID: " Id="0"/>
+                <Field Details="0010,0020" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient Birthdate line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Data di nascita: " Id="0"/>
+                <Field Details="0010,0030" Id="1000"/>
+                <Field Details=" (" Id="0"/>
+                <Field Id="1205"/>
+                <Field Details=")" Id="0"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient's Sex line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Sesso: " Id="0"/>
+                <Field Details="0010,0040" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient Comments line" Hidable="true" MultiLine="true">
+              <Fields>
+                <Field Details="0010,4000" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image # in series line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1203"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Zoom factor line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Zoom: " Id="0"/>
+                <Field Id="2000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Cine playback FPS line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="3000"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </TopLeftOvTextLinesGroup>
+        <TopRightOvTextLinesGroup Description="Overlay in alto a destra">
+          <OvTextLines>
+            <OvTextLine Description="Institution Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0008,0080" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Accession Number line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Acc #: " Id="0"/>
+                <Field Details="0008,0050" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Modality line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Modalità: " Id="0"/>
+                <Field Details="0008,0060" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image smart date line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1200"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image smart time line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1201"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </TopRightOvTextLinesGroup>
+        <BottomLeftOvTextLinesGroup Description="Overlay in basso a sinistra">
+          <OvTextLines>
+            <OvTextLine Description="Referring Physician's Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Medico prescr.: " Id="0"/>
+                <Field Details="0008,0090" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Study Description line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="St: " Id="0"/>
+                <Field Details="0008,1030" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Study Comments line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0032,4000" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Series Description line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Se: [# " Id="0"/>
+                <Field Details="0020,0011" Id="1000"/>
+                <Field Details="] " Id="0"/>
+                <Field Details="0008,103E" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="WW / WL line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1204"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </BottomLeftOvTextLinesGroup>
+        <BottomRightOvTextLinesGroup Description="Overlay in basso a destra">
+          <OvTextLines>
+            <OvTextLine Description="TE / TR line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="TE: " Id="0"/>
+                <Field Id="1400"/>
+                <Field Details=", TR: " Id="0"/>
+                <Field Id="1401"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="NEX / Matrix line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="NEX: " Id="0"/>
+                <Field Id="1402"/>
+                <Field Details=", Matrix: " Id="0"/>
+                <Field Id="1403"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="DFOV line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="DFOV: " Id="0"/>
+                <Field Id="2001"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Slice thickness line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Slice th: " Id="0"/>
+                <Field Id="1305"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Slice location line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Slice loc: " Id="0"/>
+                <Field Id="1304"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image position line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1306"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Size warnings line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1100"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Enhanced / modified warning line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1101"/>
+                <Field Details=" " Id="0"/>
+                <Field Id="1102"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Lossy warning line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1103"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </BottomRightOvTextLinesGroup>
+      </OverlayText>
+      <OverlayText BodyPartEx="" BodyPartExMatchType="0" Description="US overlay" FontSizeFactor="1.0" FrameLaterality="" FrameLateralityMatchType="0" ImageLaterality="" ImageLateralityMatchType="0" Laterality="" LateralityMatchType="0" Modality="US" ModalityMatchType="2" TextColor="255,255,0,255" ViewCode="" ViewCodeMatchType="0" ViewPosition="" ViewPositionMatchType="0">
+        <TopLeftOvTextLinesGroup Description="Overlay in alto a sinistra">
+          <OvTextLines>
+            <OvTextLine Description="Patient's Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0010,0010" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient ID line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="ID: " Id="0"/>
+                <Field Details="0010,0020" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient Birthdate line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Data di nascita: " Id="0"/>
+                <Field Details="0010,0030" Id="1000"/>
+                <Field Details=" (" Id="0"/>
+                <Field Id="1205"/>
+                <Field Details=")" Id="0"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient's Sex line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Sesso: " Id="0"/>
+                <Field Details="0010,0040" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient Comments line" Hidable="true" MultiLine="true">
+              <Fields>
+                <Field Details="0010,4000" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image # in series line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1203"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Zoom factor line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Zoom: " Id="0"/>
+                <Field Id="2000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Cine playback FPS line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="3000"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </TopLeftOvTextLinesGroup>
+        <TopRightOvTextLinesGroup Description="Overlay in alto a destra">
+          <OvTextLines>
+            <OvTextLine Description="Institution Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0008,0080" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Accession Number line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Acc #: " Id="0"/>
+                <Field Details="0008,0050" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Modality line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Modalità: " Id="0"/>
+                <Field Details="0008,0060" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image smart date line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1200"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image smart time line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1201"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </TopRightOvTextLinesGroup>
+        <BottomLeftOvTextLinesGroup Description="Overlay in basso a sinistra">
+          <OvTextLines>
+            <OvTextLine Description="Referring Physician's Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Medico prescr.: " Id="0"/>
+                <Field Details="0008,0090" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Study Description line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="St: " Id="0"/>
+                <Field Details="0008,1030" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Study Comments line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0032,4000" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Series Description line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Se: [# " Id="0"/>
+                <Field Details="0020,0011" Id="1000"/>
+                <Field Details="] " Id="0"/>
+                <Field Details="0008,103E" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="WW / WL line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1204"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </BottomLeftOvTextLinesGroup>
+        <BottomRightOvTextLinesGroup Description="Overlay in basso a destra">
+          <OvTextLines>
+            <OvTextLine Description="Stage / view line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1600"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Size warnings line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1100"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Enhanced / modified warning line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1101"/>
+                <Field Details=" " Id="0"/>
+                <Field Id="1102"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Lossy warning line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1103"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </BottomRightOvTextLinesGroup>
+      </OverlayText>
+      <OverlayText BodyPartEx="" BodyPartExMatchType="0" Description="Generic overlay" FontSizeFactor="1.0" FrameLaterality="" FrameLateralityMatchType="0" ImageLaterality="" ImageLateralityMatchType="0" Laterality="" LateralityMatchType="0" Modality="" ModalityMatchType="0" TextColor="255,255,0,255" ViewCode="" ViewCodeMatchType="0" ViewPosition="" ViewPositionMatchType="0">
+        <TopLeftOvTextLinesGroup Description="Overlay in alto a sinistra">
+          <OvTextLines>
+            <OvTextLine Description="Patient's Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0010,0010" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient ID line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="ID: " Id="0"/>
+                <Field Details="0010,0020" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient Birthdate line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Data di nascita: " Id="0"/>
+                <Field Details="0010,0030" Id="1000"/>
+                <Field Details=" (" Id="0"/>
+                <Field Id="1205"/>
+                <Field Details=")" Id="0"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient's Sex line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Sesso: " Id="0"/>
+                <Field Details="0010,0040" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Patient Comments line" Hidable="true" MultiLine="true">
+              <Fields>
+                <Field Details="0010,4000" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image # in series line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1203"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Zoom factor line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Zoom: " Id="0"/>
+                <Field Id="2000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Cine playback FPS line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="3000"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </TopLeftOvTextLinesGroup>
+        <TopRightOvTextLinesGroup Description="Overlay in alto a destra">
+          <OvTextLines>
+            <OvTextLine Description="Institution Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0008,0080" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Accession Number line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Acc #: " Id="0"/>
+                <Field Details="0008,0050" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Modality line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Modalità: " Id="0"/>
+                <Field Details="0008,0060" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image smart date line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1200"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Image smart time line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1201"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </TopRightOvTextLinesGroup>
+        <BottomLeftOvTextLinesGroup Description="Overlay in basso a sinistra">
+          <OvTextLines>
+            <OvTextLine Description="Referring Physician's Name line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Medico prescr.: " Id="0"/>
+                <Field Details="0008,0090" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Study Description line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="St: " Id="0"/>
+                <Field Details="0008,1030" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Study Comments line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="0032,4000" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Series Description line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Se: [# " Id="0"/>
+                <Field Details="0020,0011" Id="1000"/>
+                <Field Details="] " Id="0"/>
+                <Field Details="0008,103E" Id="1000"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="WW / WL line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Id="1204"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </BottomLeftOvTextLinesGroup>
+        <BottomRightOvTextLinesGroup Description="Overlay in basso a destra">
+          <OvTextLines>
+            <OvTextLine Description="Contrast / bolus agent line" Hidable="true" MultiLine="false">
+              <Fields>
+                <Field Details="Contr: " Id="0"/>
+                <Field Id="1307"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Size warnings line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1100"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Enhanced / modified warning line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1101"/>
+                <Field Details=" " Id="0"/>
+                <Field Id="1102"/>
+              </Fields>
+            </OvTextLine>
+            <OvTextLine Description="Lossy warning line" Hidable="false" MultiLine="false">
+              <Fields>
+                <Field Id="1103"/>
+              </Fields>
+            </OvTextLine>
+          </OvTextLines>
+        </BottomRightOvTextLinesGroup>
+      </OverlayText>
+    </OverlayTexts>
+  </DisplaySettings>
+  <OtherBehaviors>
+    <AutoSyncScrollEnabledByDefaultCTMR>true</AutoSyncScrollEnabledByDefaultCTMR>
+  </OtherBehaviors>
+  <ToolsSettings>
+    <LeftTool>SelectStack</LeftTool>
+    <RightTool>WindowLevel</RightTool>
+    <WheelTool>SelectStack</WheelTool>
+    <EnableMeasTools>true</EnableMeasTools>
+    <EnableAnnotTools>false</EnableAnnotTools>
+    <EnableMarkKeyImages>false</EnableMarkKeyImages>
+    <EnableViewKeyImages>true</EnableViewKeyImages>
+    <EnableReset>true</EnableReset>
+  </ToolsSettings>
+  <ContrastSettings>
+    <ContrOpsApplyTo>1</ContrOpsApplyTo>
+    <EnablePseudoColoring>false</EnablePseudoColoring>
+    <EnableInvert>true</EnableInvert>
+    <WinLevelSensitivity>0</WinLevelSensitivity>
+    <WindowLevelPresets>
+      <WindowLevelPreset Modality="CT">
+        <Description>Chest (CT)</Description>
+        <WindowWidth>350</WindowWidth>
+        <WindowCenter>40</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="CT">
+        <Description>Abd/Pelvis (CT)</Description>
+        <WindowWidth>350</WindowWidth>
+        <WindowCenter>40</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="CT">
+        <Description>Lung (CT)</Description>
+        <WindowWidth>1500</WindowWidth>
+        <WindowCenter>-600</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="CT">
+        <Description>Brain (CT)</Description>
+        <WindowWidth>80</WindowWidth>
+        <WindowCenter>40</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="CT">
+        <Description>Bone (CT)</Description>
+        <WindowWidth>2500</WindowWidth>
+        <WindowCenter>480</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="CT">
+        <Description>Head Neck (CT)</Description>
+        <WindowWidth>350</WindowWidth>
+        <WindowCenter>90</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="MR">
+        <Description>Brain T1 (MR)</Description>
+        <WindowWidth>500</WindowWidth>
+        <WindowCenter>250</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="MR">
+        <Description>Brain T2 (MR)</Description>
+        <WindowWidth>350</WindowWidth>
+        <WindowCenter>150</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="MR">
+        <Description>Sag T2 (MR)</Description>
+        <WindowWidth>300</WindowWidth>
+        <WindowCenter>150</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="MR">
+        <Description>Head/Neck (MR)</Description>
+        <WindowWidth>500</WindowWidth>
+        <WindowCenter>250</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="MR">
+        <Description>Spine (MR)</Description>
+        <WindowWidth>500</WindowWidth>
+        <WindowCenter>250</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="MR">
+        <Description>Abd/Pelvis T1 (MR)</Description>
+        <WindowWidth>590</WindowWidth>
+        <WindowCenter>180</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="MR">
+        <Description>Abd/Pelvis T2 (MR)</Description>
+        <WindowWidth>835</WindowWidth>
+        <WindowCenter>145</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="US">
+        <Description>Ultrasound [Low Contrast](US)</Description>
+        <WindowWidth>190</WindowWidth>
+        <WindowCenter>80</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="US">
+        <Description>Ultrasound [Medium Contrast] (US)</Description>
+        <WindowWidth>160</WindowWidth>
+        <WindowCenter>70</WindowCenter>
+      </WindowLevelPreset>
+      <WindowLevelPreset Modality="US">
+        <Description>Ultrasound [High Contrast] (US)</Description>
+        <WindowWidth>120</WindowWidth>
+        <WindowCenter>60</WindowCenter>
+      </WindowLevelPreset>
+    </WindowLevelPresets>
+  </ContrastSettings>
+  <GeometrySettings>
+    <EnableGeomOps>true</EnableGeomOps>
+    <GeomOpsApplyTo>1</GeomOpsApplyTo>
+  </GeometrySettings>
+  <EnhancementSettings>
+    <EnableEnhancOps>false</EnableEnhancOps>
+    <EnhanceOpsApplyTo>1</EnhanceOpsApplyTo>
+  </EnhancementSettings>
+  <KeyImageSettings>
+    <ToggleKeyImageAction>imageToggleKeyImageOnSelImage</ToggleKeyImageAction>
+  </KeyImageSettings>
+  <MeasurementSettings>
+    <ApplyToWholeSeriesEnabledOnStartup>false</ApplyToWholeSeriesEnabledOnStartup>
+    <CreateAnnotEnabledOnStartup>true</CreateAnnotEnabledOnStartup>
+    <ShowOnScreenMeasEnabledOnStartup>true</ShowOnScreenMeasEnabledOnStartup>
+    <MeasUnitOnStartup>cm</MeasUnitOnStartup>
+  </MeasurementSettings>
+  <AnnotationSettings>
+    <ApplyToWholeSeriesEnabledOnStartup>false</ApplyToWholeSeriesEnabledOnStartup>
+  </AnnotationSettings>
+  <FindWorklistSettings>
+    <PresetSearchFilters/>
+    <ShowFindFrameOnStartup>false</ShowFindFrameOnStartup>
+    <ShowAccNumSearchParam>true</ShowAccNumSearchParam>
+    <ShowRefPhysSearchParam>true</ShowRefPhysSearchParam>
+    <AutoCloseFindFrame>true</AutoCloseFindFrame>
+    <EnableFind>true</EnableFind>
+    <EnableQueryByClick>true</EnableQueryByClick>
+    <FindTreeViewType>StudyRoot</FindTreeViewType>
+    <WorklistPrefs>
+      <WorklistEnabled>false</WorklistEnabled>
+      <PrefetchEnabled>false</PrefetchEnabled>
+      <PurgePolicy>0</PurgePolicy>
+    </WorklistPrefs>
+  </FindWorklistSettings>
+  <ReportingSettings>
+    <EnableReporting>true</EnableReporting>
+    <EnableDictate>false</EnableDictate>
+    <EnableTranscribe>false</EnableTranscribe>
+    <EnableMarkAsVerified>false</EnableMarkAsVerified>
+    <EnableViewReport>true</EnableViewReport>
+    <EnableListenToReport>true</EnableListenToReport>
+    <SelSRTemplateName/>
+    <VerifyingObsFirstName/>
+    <VerifyingObsFamName/>
+    <VerifyingObsOrg/>
+  </ReportingSettings>
+  <PrintSettings>
+    <EnablePrint>false</EnablePrint>
+    <EnableDICOMPrint>false</EnableDICOMPrint>
+    <BookletDefMarginTopMm>5.0</BookletDefMarginTopMm>
+    <BookletDefMarginBottomMm>5.0</BookletDefMarginBottomMm>
+    <BookletDefMarginLeftMm>5.0</BookletDefMarginLeftMm>
+    <BookletDefMarginRightMm>5.0</BookletDefMarginRightMm>
+    <BookletDefSheetSizeId>10</BookletDefSheetSizeId>
+    <BookletDefSheetWidthMm>210.0</BookletDefSheetWidthMm>
+    <BookletDefSheetHeightMm>297.0</BookletDefSheetHeightMm>
+    <BookletDefSheetBkgColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </BookletDefSheetBkgColor>
+    <BookletDefEmptyImgBkgColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </BookletDefEmptyImgBkgColor>
+    <BookletDefImageRows>3</BookletDefImageRows>
+    <BookletDefImageCols>2</BookletDefImageCols>
+    <BookletDefHeaderTextEnabled>false</BookletDefHeaderTextEnabled>
+    <BookletDefHeaderTextFont>
+      <Family>Dialog</Family>
+      <Size>12</Size>
+      <Bold>false</Bold>
+      <Italic>false</Italic>
+    </BookletDefHeaderTextFont>
+    <BookletDefHeaderTextColor>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </BookletDefHeaderTextColor>
+    <BookletDefHeaderText>Sample sheet header (please modify)</BookletDefHeaderText>
+    <BookletDefHeaderImageEnabled>false</BookletDefHeaderImageEnabled>
+    <BookletDefHeaderImageHeightMm>10.0</BookletDefHeaderImageHeightMm>
+    <BookletDefHeaderImagePathname/>
+    <BookletDefFooterTextEnabled>false</BookletDefFooterTextEnabled>
+    <BookletDefFooterTextFont>
+      <Family>Dialog</Family>
+      <Size>12</Size>
+      <Bold>false</Bold>
+      <Italic>false</Italic>
+    </BookletDefFooterTextFont>
+    <BookletDefFooterTextColor>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </BookletDefFooterTextColor>
+    <BookletDefFooterText>Sample sheet footer (please modify)</BookletDefFooterText>
+    <BookletDefFooterImageEnabled>false</BookletDefFooterImageEnabled>
+    <BookletDefFooterImageHeightMm>10.0</BookletDefFooterImageHeightMm>
+    <BookletDefFooterImagePathname/>
+    <DICOMPrintSelPrinter/>
+    <DICOMPrintLevel>FilmSession</DICOMPrintLevel>
+    <DICOMPrintInColor>false</DICOMPrintInColor>
+    <SRHeaderImgEnabled>false</SRHeaderImgEnabled>
+    <SRHeaderImgPathname/>
+    <SRHeaderImgHeight>10</SRHeaderImgHeight>
+    <SRHeaderTextEnabled>false</SRHeaderTextEnabled>
+    <SRHeaderText/>
+    <SRHeaderTextFont>
+      <Family>Dialog</Family>
+      <Size>12</Size>
+      <Bold>false</Bold>
+      <Italic>false</Italic>
+      <Color>
+        <Red>0</Red>
+        <Green>0</Green>
+        <Blue>0</Blue>
+      </Color>
+    </SRHeaderTextFont>
+    <SRFooterImgEnabled>false</SRFooterImgEnabled>
+    <SRFooterImgPathname/>
+    <SRFooterImgHeight>10</SRFooterImgHeight>
+    <SRFooterTextEnabled>false</SRFooterTextEnabled>
+    <SRFooterText/>
+    <SRFooterTextFont>
+      <Family>Dialog</Family>
+      <Size>12</Size>
+      <Bold>false</Bold>
+      <Italic>false</Italic>
+      <Color>
+        <Red>0</Red>
+        <Green>0</Green>
+        <Blue>0</Blue>
+      </Color>
+    </SRFooterTextFont>
+    <SRPrnDlgPrinterName/>
+    <SRPrnDlgPrintableAreaX>0.0</SRPrnDlgPrintableAreaX>
+    <SRPrnDlgPrintableAreaY>0.0</SRPrnDlgPrintableAreaY>
+    <SRPrnDlgPrintableAreaWidth>1000.0</SRPrnDlgPrintableAreaWidth>
+    <SRPrnDlgPrintableAreaHeight>1000.0</SRPrnDlgPrintableAreaHeight>
+    <SRPrnDlgPrintableAreaUnit>1000</SRPrnDlgPrintableAreaUnit>
+    <SRPrnDlgSheetOrientation>3</SRPrnDlgSheetOrientation>
+    <SRPrnDlgCopies>1</SRPrnDlgCopies>
+    <SRPrnDlgPrintQuality>5</SRPrnDlgPrintQuality>
+    <SRPrnDlgJobName>RemotEye Print Job</SRPrnDlgJobName>
+    <SRPrnDlgChromaticity>1</SRPrnDlgChromaticity>
+    <SRPrnDlgSides>0</SRPrnDlgSides>
+    <SRPrnDlgMediaSize>-1</SRPrnDlgMediaSize>
+    <SRPrnDlgMediaTray>-1</SRPrnDlgMediaTray>
+    <DICOMPrinters/>
+  </PrintSettings>
+  <ResetSettings>
+    <ResetAction>imageResetSelSeries</ResetAction>
+  </ResetSettings>
+  <KeyBindings>
+    <ViewerKeyBindings>
+      <KeyBinding ActionId="reportingDictateAppend" KeyStroke="65,130,false"/>
+      <KeyBinding ActionId="reportingDictateSeekToBeginning" KeyStroke="66,130,false"/>
+      <KeyBinding ActionId="reportingDictate" KeyStroke="68,130,false"/>
+      <KeyBinding ActionId="reportingDictateSeekToEnd" KeyStroke="69,130,false"/>
+      <KeyBinding ActionId="reportingDictateFastForward" KeyStroke="70,130,false"/>
+      <KeyBinding ActionId="reportingDictateInsertRecording" KeyStroke="73,130,false"/>
+      <KeyBinding ActionId="reportingDictateCancel" KeyStroke="76,130,false"/>
+      <KeyBinding ActionId="reportingDictateOverwriteRecording" KeyStroke="79,130,false"/>
+      <KeyBinding ActionId="reportingDictatePlayPauseRecording" KeyStroke="80,130,false"/>
+      <KeyBinding ActionId="reportingDictateRewind" KeyStroke="82,130,false"/>
+      <KeyBinding ActionId="reportingDictateStopPlaybackRecording" KeyStroke="83,130,false"/>
+      <KeyBinding ActionId="reportingDictateSave" KeyStroke="86,130,false"/>
+    </ViewerKeyBindings>
+    <ScreenKeyBindings>
+      <KeyBinding ActionId="navigatePreviousFrameSelSeries" KeyStroke="38,0,false"/>
+      <KeyBinding ActionId="navigateNextFrameSelSeries" KeyStroke="40,0,false"/>
+      <KeyBinding ActionId="navigatePreviousSeriesSelSeries" KeyStroke="37,0,false"/>
+      <KeyBinding ActionId="navigateNextSeriesSelSeries" KeyStroke="39,0,false"/>
+      <KeyBinding ActionId="navigatePreviousSeriesPageSelStudy" KeyStroke="33,0,false"/>
+      <KeyBinding ActionId="navigateNextSeriesPageSelStudy" KeyStroke="34,0,false"/>
+      <KeyBinding ActionId="genericDelete" KeyStroke="127,0,false"/>
+      <KeyBinding ActionId="genericDelete" KeyStroke="8,0,false"/>
+      <KeyBinding ActionId="imageSelNextAnnotSelImage" KeyStroke="521,0,false"/>
+      <KeyBinding ActionId="imageSelNextAnnotSelImage" KeyStroke="107,0,false"/>
+      <KeyBinding ActionId="imageSelPrevAnnotSelImage" KeyStroke="45,0,false"/>
+      <KeyBinding ActionId="imageSelPrevAnnotSelImage" KeyStroke="109,0,false"/>
+      <KeyBinding ActionId="cinePlayPauseMovieSelSeries" KeyStroke="80,130,false"/>
+      <KeyBinding ActionId="cineStopMovieSelSeries" KeyStroke="83,130,false"/>
+      <KeyBinding ActionId="exportCopySelImageSSToClipboard" KeyStroke="67,130,false"/>
+      <KeyBinding ActionId="navigatePreviousSceneSelSeries" KeyStroke="33,520,false"/>
+      <KeyBinding ActionId="navigateNextSceneSelSeries" KeyStroke="34,520,false"/>
+      <KeyBinding ActionId="navigateToFrameSelSeries" KeyStroke="71,130,false"/>
+    </ScreenKeyBindings>
+    <StudyKeyBindings/>
+  </KeyBindings>
+</UserSettings>
