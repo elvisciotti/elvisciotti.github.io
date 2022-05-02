@@ -1,0 +1,16 @@
+services:
+  jeykill:
+    container_name: ec_jeykyll_serve
+    image: jekyll/minimal:3.8
+    volumes:
+     - .:/srv/jekyll
+    entrypoint: "jekyll serve --config _config.yml"
+
+  nginx:
+    container_name: ec_jeykyll_nginx
+    image: nginx
+
+    ports:
+      - 8080:80
+    volumes:
+      - ./_site:/usr/share/nginx/html
