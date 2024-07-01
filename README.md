@@ -1,6 +1,5 @@
-# Elvis Ciotti
 
-Senior Software Engeering Contractor Java (11+, Spring boot), Javascript / Typescript, K8s, AWS
+
 
 See my full and updated work experience and tech skills details on [LinkedIn](https://www.linkedin.com/in/elvisciotti/?originalSubdomain=uk)
 
