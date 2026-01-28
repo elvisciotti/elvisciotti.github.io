@@ -40,6 +40,33 @@
         });
       }
 
+      function openWindow(toValue, fromValue, word) {
+        const sanitizedTarget = `win-${word}-${fromValue}-${toValue}`.replace(/\W+/g, "-");
+        console.log(`opening ${toValue}`);
+        if (toValue === 'definition') {
+          // Handle definition checkbox
+          const definitionUrls = {
+            'it': 'definizione',
+            'es': 'definicion',
+            'en': 'definition',
+          };
+          window.open(`https://www.wordreference.com/${definitionUrls[fromValue]}/${word}`, `${sanitizedTarget}-definition`);
+          return;
+        }
+
+        if (toValue === 'verb') {
+          window.open(`https://www.wordreference.com/conj/${fromValue}verbs.aspx?v=${word}`, `${sanitizedTarget}-verb`);
+          return;
+        }
+
+        // languages
+        if (word.includes(' ')) {
+          window.open(`https://translate.google.com/?hl=en&sl=${fromValue}&tl=${toValue}&text=${word}&op=translate`, `${sanitizedTarget}-translate`);
+        }
+
+        window.open(`https://www.wordreference.com/${fromValue}${toValue}/${word}`, `${sanitizedTarget}-wordreference`);
+      }
+
       function words() {
         const fromRadio = document.querySelector('input[name="from"]:checked');
         if (!fromRadio) {
@@ -61,29 +88,10 @@
           .map(s => s.trim())
           .filter(s => s.length > 2);
 
-        toLanguageCheckboxes.forEach(toLanguage => {
-          const toValue = toLanguage.value; // es, fr, it, definition, verb
-          wordsArray.forEach(word => {
-            const sanitizedTarget = `win-${fromValue}-${toValue}-${word}`.replace(/\W+/g, "-");
-            // in case of spaces, also open translate google
-            console.log(`opening ${toValue}`);
-            if (toValue === 'definition') {
-              // Handle definition checkbox
-              const definitionUrls = {
-                'it': 'definizione',
-                'es': 'definicion',
-                'en': 'definition',
-              };
-              window.open(`https://www.wordreference.com/${definitionUrls[fromValue]}/${word}`, `${sanitizedTarget}-definition`);
-            } else if (toValue === 'verb') {
-              window.open(`https://www.wordreference.com/conj/${fromValue}verbs.aspx?v=${word}`, `${sanitizedTarget}-verb`);
-            } else {
-              // languages
-              if (word.includes(' ')) {
-                window.open(`https://translate.google.com/?hl=en&sl=${fromValue}&tl=${toValue}&text=${word}&op=translate`, `${sanitizedTarget}-translate`);
-              }
-              window.open(`https://www.wordreference.com/${fromValue}${toValue}/${word}`, `${sanitizedTarget}-wordreference`);
-            }
+        wordsArray.forEach(word => {
+          toLanguageCheckboxes.forEach(toLanguage => {
+            const toValue = toLanguage.value; // es, fr, it, definition, verb
+            openWindow(toValue, fromValue, word);
           });
         });
       }
