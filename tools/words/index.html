@@ -72,7 +72,7 @@
         }
 
         // also open google translate if more than one word
-        if (word.split(' ').filter(w => w.trim().length > 1).length > 0) {
+        if (word.trim().split(' ').filter(w => w.trim().length > 2).length > 1) {
           window.open(`https://translate.google.com/?hl=en&sl=${fromValue}&tl=${toValue}&text=${word}&op=translate`, `${sanitizedTarget}-translate`);
         }
 
