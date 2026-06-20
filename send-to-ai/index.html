@@ -33,8 +33,37 @@
     header {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       color: white;
-      padding: 60px 40px;
+      padding: 60px 40px 40px 40px;
       text-align: center;
+    }
+
+    .install-buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .install-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: white;
+      color: #667eea;
+      padding: 14px 28px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1em;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .install-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     }
 
     .logo {
@@ -307,6 +336,16 @@
       <h1>Send to AI</h1>
       <p class="tagline">Send YouTube videos, webpages, or text selections to free AI chats for conversation<br />
         Free. No API keys, no hassle</p>
+      <div class="install-buttons">
+        <a href="https://chromewebstore.google.com/detail/send-to-ai/hahllcpdbbgpjehdpmojihpbignaimpn" target="_blank"
+          rel="noopener noreferrer" class="install-btn">
+          Install for Chrome
+        </a>
+        <a href="#" onClick="alert('available soon');return false;" target="_blank" rel="noopener noreferrer"
+          class="install-btn">
+          Install for Edge
+        </a>
+      </div>
     </header>
 
     <div class="main-content">
@@ -375,7 +414,16 @@
       <section class="cta-section">
         <h2>Ready to Streamline Your Workflow?</h2>
         <p>Install Send to AI now and start sending content to your favorite AI services instantly.</p>
-        <button class="cta-button">Add to Chrome</button>
+        <div class="install-buttons">
+          <a href="https://chromewebstore.google.com/detail/send-to-ai/hahllcpdbbgpjehdpmojihpbignaimpn" target="_blank"
+            rel="noopener noreferrer" class="install-btn" style="background: white; color: #667eea;">
+            Install for Chrome
+          </a>
+          <a href="#" onClick="alert('available soon');return false;" target="_blank" rel="noopener noreferrer"
+            class="install-btn" style="background: white; color: #667eea;">
+            Install for Edge
+          </a>
+        </div>
       </section>
 
       <a name="policy"></a>
