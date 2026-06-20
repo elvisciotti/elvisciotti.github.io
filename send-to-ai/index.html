@@ -30,10 +30,23 @@
       overflow: hidden;
     }
 
+    .logo-section {
+      background: white;
+      padding: 30px 40px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 128px;
+      height: 128px;
+      margin: 0 auto;
+      display: block;
+    }
+
     header {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       color: white;
-      padding: 60px 40px 40px 40px;
+      padding: 40px 40px;
       text-align: center;
     }
 
@@ -64,13 +77,6 @@
     .install-btn:hover {
       transform: scale(1.05);
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    }
-
-    .logo {
-      width: 128px;
-      height: 128px;
-      margin: 0 auto 30px;
-      display: block;
     }
 
     h1 {
@@ -331,8 +337,11 @@
 
 <body>
   <div class="container">
-    <header>
+    <div class="logo-section">
       <img src="images/128.png" alt="Send to AI Logo" class="logo">
+    </div>
+
+    <header>
       <h1>Send to AI</h1>
       <p class="tagline">Send YouTube videos, webpages, or text selections to free AI chats for conversation<br />
         Free. No API keys, no hassle</p>
